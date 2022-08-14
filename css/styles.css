@@ -14,12 +14,15 @@
 
 body {
     font-family: var(--primary-font);
-    color: var(--font-color)
+    color: var(--secondary-color-text-theme-white);
+    font-size: 16px;
+    letter-spacing: 0.03em;
 }
 
 button {
     cursor: pointer;
     font-family: inherit;
+    letter-spacing: 0.03em;
 }
 
 .visually-hidden {
@@ -138,25 +141,22 @@ button {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
-
+    text-transform: uppercase;
+    color: var(--primary-color-text-theme-white)
 }
 
 .text-main-page {
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-
-    color: var(--secondary-color-text-theme-white);
 }
 
 /* Чим ми займаємось */
-.about-title {
+.title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em
+    color: var(--primary-color-text-theme-white)
 }
 
 /* Наша команда */
@@ -171,24 +171,14 @@ button {
     ;
 }
 
-.about-comand-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
 .about-comand-heading {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.19;
+    color: var(--primary-color-text-theme-white);
 }
 
 .about-comand-text {
-    font-size: 16px;
     line-height: 1.19;
-    color: var(--secondary-color-text-theme-white);
 }
 
 /* Підвал */
@@ -216,18 +206,25 @@ button {
 
 /* Портфоліо */
 
+
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #212121;
+}
+
 .portfolio-list-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: var(--primary-color-text-theme-white);
 }
 
 .portfolio-list-text {
-    font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
-    color: var(--secondary-color-text-theme-white);
 }
 
 .portfolio-btn:hover,
@@ -235,6 +232,7 @@ button {
     background-color: var(--accent-color);
     color: var(--primary-color-text-theme-dark);
 }
+
 
 /* Логотип */
 
